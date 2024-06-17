@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import "./style.css";
-import Logo from "../../assets/logo.png";
+import Logo from "./logo.png";
 
 export const Searcher = ({ onSubmit, valorInput, onChange }) => {
   return (
