@@ -1,10 +1,11 @@
 import PropTypes from "prop-types";
 import "./style.css";
+import Logo from "../../assets/logo.png";
 
 export const Searcher = ({ onSubmit, valorInput, onChange }) => {
   return (
     <div className="container">
-      <img className="logo" src="src/assets/logo.png" alt="Logo gif hunter" />
+      <img className="logo" src={Logo} alt="Logo gif hunter" />
       <form onSubmit={onSubmit}>
         <input value={valorInput} onChange={onChange} placeholder="Smile" />
         <button type="submit">Buscar</button>
