@@ -4,7 +4,7 @@ import "./style.css";
 export const Searcher = ({ onSubmit, valorInput, onChange }) => {
   return (
     <div className="container">
-      <img className="logo" src="src\assets\logo.png" alt="" />
+      <img className="logo" src="src/assets/logo.png" alt="Logo gif hunter" />
       <form onSubmit={onSubmit}>
         <input value={valorInput} onChange={onChange} placeholder="Smile" />
         <button type="submit">Buscar</button>
